@@ -1,4 +1,4 @@
-# MongoDB Deployment Demo for Kubernetes on MIcrok8s (i.e. running on local workstation)
+# MongoDB Deployment Demo for Kubernetes on microk8s (i.e. running on local workstation)
 
 An example project demonstrating the deployment of a MongoDB Replica Set via Kubernetes on Microk8s (Kubernetes running locally on a workstation). Contains example Kubernetes YAML resource files (in the 'resource' folder) and associated Kubernetes based Bash scripts (in the 'scripts' folder) to configure the environment and deploy a MongoDB Replica Set.
 
@@ -13,8 +13,8 @@ Ensure the following dependencies are already fulfilled on your host Linux/Windo
 
 1. The [VirtualBox](https://www.virtualbox.org/wiki/Downloads) hypervisor has been installed.
 2. The [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) command-line tool for Kubernetes has been installed.
-3. The [Microk8s](https://microk8s.io/) tool for running Kubernetes locally has been installed.
-4. The Microk8s cluster has been started, inside a local Virtual Machine, using the following command (also includes commands to check that kubectl is configured correctly to see the running microk8s pod): https://microk8s.io/#quick-start
+3. The [microk8s](https://microk8s.io/) tool for running Kubernetes locally has been installed.
+4. The microk8s cluster has been started, inside a local Virtual Machine, using the following command (also includes commands to check that kubectl is configured correctly to see the running microk8s pod): https://microk8s.io/#quick-start
 
 ### 1.2 Main Deployment Steps 
 
